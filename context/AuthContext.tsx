@@ -37,7 +37,7 @@ type AuthContextType = {
 };
 
 // API base URL - make sure this matches your backend
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://20.253.28.15:80';  // Changed from 127.0.0.1 to localhost
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://branch.wittyhill-45f93eb6.canadaeast.azurecontainerapps.io/';  // Changed from 127.0.0.1 to localhost
 const API_PREFIX = '/api/v1'; // This should match your backend's API_PREFIX
 
 // Create axios instance with default config
